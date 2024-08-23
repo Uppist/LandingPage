@@ -25,11 +25,9 @@ body::-webkit-scrollbar {
   padding: 24px 50px;
 }
 
-.luround {
-  width: 195px;
-  height: 60px;
+.luround3 {
+  display: none;
 }
-
 .side-bar {
   display: none;
 }
@@ -56,6 +54,7 @@ body::-webkit-scrollbar {
   font-size: 18px;
   color: hsl(180, 23%, 15%, 1);
   font-weight: 500;
+  display: none;
   font-family: "Inter";
 }
 
@@ -538,6 +537,11 @@ p {
   left: 85px;
 }
 
+.datareview {
+  font-family: "Inter";
+  color: hsla(180, 23%, 15%, 1);
+}
+
 .share {
   padding: 80px;
   display: grid;
@@ -667,6 +671,7 @@ p {
 }
 
 .line-span {
+  font-weight: 400;
   display: grid;
   gap: 24px;
 }
@@ -693,12 +698,25 @@ a {
   color: hsla(180, 23%, 15%, 1);
 }
 
+.luround4 {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
+  .luround {
+    display: none;
+  }
+
+  .luround4 {
+    display: block;
+  }
+
+  .luround2 {
+    display: none;
+  }
   .side-bar {
     background-color: white;
     width: fit-content;
     display: block;
-    /* height: 100vh; */
     position: fixed;
     top: 0;
     right: -600px;
@@ -748,6 +766,7 @@ a {
   }
 
   .sidebar-login {
+    display: none;
     padding: 14px 130px;
     border: 0;
     background-color: white;
@@ -770,18 +789,13 @@ a {
     background-color: hsl(180, 100%, 40%, 1);
   }
 
-  .luround {
-    width: 109px;
-    height: 32px;
+  .luround3 {
+    display: block;
   }
 
   .imagelist {
     align-items: center;
     padding: 24px;
-  }
-
-  .image-luround {
-    width: 109px;
   }
 
   .list {
@@ -902,6 +916,9 @@ a {
     width: 246px;
     border-radius: 20px;
   }
+  .line-span {
+    font-weight: 200;
+  }
 
   .pbc {
     grid-template-columns: 1fr;
@@ -943,6 +960,7 @@ a {
   .businessimage {
     width: 246px;
     height: 216px;
+    top: 0px;
   }
 
   .contactimage {
@@ -1004,7 +1022,7 @@ a {
   .process {
     width: 110px;
     margin-top: -120px;
-    margin-left: 70px;
+    margin-left: 0px;
   }
   .communityimage {
     width: 320px;
@@ -1043,7 +1061,9 @@ a {
   }
 
   .footer-span {
-    width: 290px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 350px;
   }
 
   .footer-hr {
@@ -1076,7 +1096,6 @@ a {
 
   .datareview {
     font-size: 14px;
-    color: hsla(180, 23%, 15%, 1);
   }
 
   .businessowner {

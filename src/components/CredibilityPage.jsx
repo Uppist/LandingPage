@@ -1,7 +1,8 @@
 /** @format */
 
 import "../style.css";
-import luround from "../elements/Luround.jpg";
+import luround from "../elements/LUROUND1.png";
+import luround3 from "../elements/LUROUND3.png";
 import imageboy from "../elements/imageboy.jpg";
 import imagegirl from "../elements/imagegirl.jpg";
 import Calendar from "./Calender";
@@ -30,6 +31,7 @@ export default function CreditService() {
         <div className='side-bar' id='side-bar'>
           <div className='image-close'>
             <img className='image-luround' src={luround} />
+
             <a className='dropdown-close' id='sidebar-close' onClick={onClose}>
               <svg
                 className='cancel'
@@ -62,6 +64,7 @@ export default function CreditService() {
           </ul>
         </div>
         <img className='luround' src={luround} />
+        <img className='luround3' src={luround3} />
 
         <ul className='ullist'>
           <li className='list'>
