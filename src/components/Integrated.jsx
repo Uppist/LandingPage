@@ -2,9 +2,7 @@
 import "../style.css";
 import profile from "../elements/RonaldProfile.jpg";
 import onetime from "../elements/onetime.jpg";
-import payment1 from "../elements/Financials.jpg";
-import payment2 from "../elements/Financials2.jpg";
-import payment3 from "../elements/Financials3.jpg";
+
 import business from "../elements/business.jpg";
 import contact from "../elements/contact.jpg";
 import successful from "../elements/successful.jpg";
