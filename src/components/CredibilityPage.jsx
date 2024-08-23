@@ -2,7 +2,6 @@
 
 import "../style.css";
 import luround from "../elements/LUROUND1.png";
-import luround3 from "../elements/LUROUND3.png";
 import imageboy from "../elements/imageboy.jpg";
 import imagegirl from "../elements/imagegirl.jpg";
 import Calendar from "./Calender";
@@ -64,7 +63,6 @@ export default function CreditService() {
           </ul>
         </div>
         <img className='luround' src={luround} />
-        <img className='luround3' src={luround3} />
 
         <ul className='ullist'>
           <li className='list'>

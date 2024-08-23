@@ -25,8 +25,14 @@ body::-webkit-scrollbar {
   padding: 24px 50px;
 }
 
+.luround {
+  width: 164.28px;
+  height: 48px;
+}
+
 .luround3 {
-  display: none;
+  width: 160px;
+  height: 46.75px;
 }
 .side-bar {
   display: none;
@@ -703,7 +709,8 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .luround {
-    display: none;
+    width: 109.52px;
+    height: 32px;
   }
 
   .luround4 {
@@ -897,6 +904,10 @@ a {
     width: 132px;
     height: 98px;
     top: 85px;
+  }
+
+  .image-luround {
+    width: 109.52px;
   }
 
   .onetime {

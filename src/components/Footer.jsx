@@ -1,11 +1,9 @@
 /** @format */
-import luround2 from "../elements/luround2.png";
-import luround4 from "../elements/LUROUND4.png";
+import luround3 from "../elements/LUROUND3.png";
 export default function Footer() {
   return (
     <footer className='footer'>
-      <img className='luround2' src={luround2} />
-      <img className='luround4' src={luround2} />
+      <img className='luround3' src={luround3} />
       <span className='footer-span'>
         All-in-one app to help consultants and coaches build credibility, reach
         new customers faster and organize their practice seamlessly.
