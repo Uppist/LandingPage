@@ -1,0 +1,36 @@
+[
+  {
+    "review": "As a small business owner, managing appointments and payments used to be a hassle. Since switching to Luround, my operations have become so much smoother. The calendar and booking features are intuitive, and my clients love the convenience.",
+    "image": "Ellipse.png",
+    "name": "Alex Udom",
+    "Occupation": "Owner of Serenity Spa"
+  },
+
+  {
+    "review": "“I’ve tried several platforms, but none have matched the simplicity and functionality of Luround. The invoicing system saves me hours each week, and I can track everything from one dashboard. It’s exactly what I needed to keep my business running smoothly.”",
+    "image": "Ellipse1.png",
+    "name": "Tolutope Akinde",
+    "Occupation": "Freelance Consultant"
+  },
+
+  {
+    "review": "‘The ability to manage my profile, services, and bookings all in one place has made a huge difference. My clients appreciate the seamless booking process, and I love how easy it is to stay organized with the calendar feature. I highly recommend Luround to anyone looking to elevate their business.”",
+    "image": "Ellipse3.png",
+    "name": "Jennifer Nduka",
+    "Occupation": "Personal Trainer"
+  },
+
+  {
+    "review": "“Luround not only offers all the features I need, but the customer support is outstanding. Whenever I’ve had questions, the team has been quick to respond and incredibly helpful. This platform has truly enhanced my business operations.”",
+    "image": "Ellipse4.png",
+    "name": "Chinedu Akin",
+    "Occupation": "Marketing Consultant"
+  },
+
+  {
+    "review": "“Luround not only offers all the features I need, but the customer support is outstanding. Whenever I’ve had questions, the team has been quick to respond and incredibly helpful. This platform has truly enhanced my business operations.”",
+    "image": "Ellipse4.png",
+    "name": "Chinedu Akin",
+    "Occupation": "Marketing Consultant"
+  }
+]
