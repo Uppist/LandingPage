@@ -1,13 +1,8 @@
 /** @format */
 
-import "../style.css";
 import luround from "../../public/LUROUND1.png";
 
-import imageboy from "../../public/imageboy.jpg";
-import imagegirl from "../../public/imagegirl.jpg";
-import Calendar from "./Calender";
-import Check from "./Check";
-export default function CreditService() {
+export default function Login() {
   function sideBar() {
     const dropdownButton = document.querySelector(".list-menu");
     const sidebar = document.querySelector(".side-bar");
@@ -25,10 +20,8 @@ export default function CreditService() {
     }
   }
   return (
-    <div className='firstcontainer'>
+    <div>
       <div className='imagelist'>
-        <img className='luround' src={luround} alt='Luround Logo' />
-
         <ul className='ullist'>
           <li className='list'>
             <button className='login'>Log In</button>
@@ -56,8 +49,13 @@ export default function CreditService() {
             </a>
           </li>
         </ul>
+      </div>
+    </div>
+  );
+}
 
-        <div className='side-bar' id='side-bar'>
+{
+  /* <div className='side-bar' id='side-bar'>
           <div className='image-close'>
             <img className='image-luround' src={luround} />
 
@@ -92,60 +90,5 @@ export default function CreditService() {
             </li>
           </ul>
         </div>
-      </div>
-
-      <div className='buildbutton'>
-        <span className='build'>
-          Build <span className='easily'>credibility</span>, reach customers
-          faster, and organize your practice
-          <span className='easily'> seamlessly</span>
-        </span>
-
-        <div>
-          <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
-            <button className='download'>Download Luround</button>
-          </a>
-        </div>
-      </div>
-      <div className='image'>
-        <div>
-          <img className='imgboy' src={imageboy} />
-
-          <div className='mark'>
-            <Calendar />
-            <span>Mark your calendar!</span>
-          </div>
-        </div>
-        <div>
-          <img className='imggirl' src={imagegirl} />
-          <div className='service'>
-            <span>Service booked</span>
-            <Check />
-          </div>
-        </div>
-      </div>
-      <footer className='services'>
-        <div>
-          <span>100+</span>
-          <div>
-            <span className='serviceproviders'>Service Providers</span>
-          </div>
-        </div>
-        <hr />
-        <div>
-          <span>500+</span>
-          <div>
-            <span className='serviceproviders'>Services Booked</span>
-          </div>
-        </div>
-        <hr />
-        <div>
-          <span>24/7</span>
-          <div>
-            <span className='serviceproviders'>Customer Support</span>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
+        <img className='luround' src={luround} /> */
 }

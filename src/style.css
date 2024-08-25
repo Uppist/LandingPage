@@ -721,7 +721,7 @@ a {
   }
 
   .help-list {
-    padding: 0px;
+    padding: 32px 24px;
   }
   .side-bar.active {
     right: 0;
@@ -1076,10 +1076,6 @@ a {
   .help {
     font-size: 24px;
     width: 200px;
-  }
-
-  .review {
-    padding: 32px 24px;
   }
 
   .arrow {
