@@ -1,9 +1,9 @@
 /** @format */
 
 import "../style.css";
-import luround from "../elements/LUROUND1.png";
-import imageboy from "../elements/imageboy.jpg";
-import imagegirl from "../elements/imagegirl.jpg";
+import luround from "../../public/LUROUND1.png";
+import imageboy from "../../public/imageboy.jpg";
+import imagegirl from "../../public/imagegirl.jpg";
 import Calendar from "./Calender";
 import Check from "./Check";
 export default function CreditService() {

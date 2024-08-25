@@ -1,5 +1,5 @@
 /** @format */
-import luround3 from "../elements/LUROUND3.png";
+import luround3 from "../../public/LUROUND3.png";
 export default function Footer() {
   return (
     <footer className='footer'>

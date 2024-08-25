@@ -1,10 +1,10 @@
 /** @format */
 import "../style.css";
-import profile from "../elements/ronald.png";
-import business from "../elements/business.png";
-import contact from "../elements/contact.png";
-import successful from "../elements/successful.png";
-import group from "../elements/payment.png";
+import profile from "../../public/ronald.png";
+import business from "../../public/business.png";
+import contact from "../../public/contact.png";
+import successful from "../../public/successful.png";
+import group from "../../public/payment.png";
 export default function Integrated() {
   return (
     <div className='gridcontainer'>
