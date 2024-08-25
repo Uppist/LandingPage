@@ -720,6 +720,9 @@ a {
     transition: 0.9s ease;
   }
 
+  .help-list {
+    padding: 0px;
+  }
   .side-bar.active {
     right: 0;
     width: fit-content;
