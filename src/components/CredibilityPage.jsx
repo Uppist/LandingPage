@@ -125,25 +125,22 @@ export default function CreditService() {
         </div>
       </div>
       <footer className='services'>
-        <div>
+        <div className='provider'>
           <span>100+</span>
-          <div>
-            <span className='serviceproviders'>Service Providers</span>
-          </div>
+
+          <span className='serviceproviders'>Service Providers</span>
         </div>
         <hr />
-        <div>
+        <div className='provider'>
           <span>500+</span>
-          <div>
-            <span className='serviceproviders'>Services Booked</span>
-          </div>
+
+          <span className='serviceproviders'>Services Booked</span>
         </div>
         <hr />
-        <div>
+        <div className='provider'>
           <span>24/7</span>
-          <div>
-            <span className='serviceproviders'>Customer Support</span>
-          </div>
+
+          <span className='serviceproviders'>Customer Support</span>
         </div>
       </footer>
     </div>
