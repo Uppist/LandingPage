@@ -18,9 +18,16 @@ body::-webkit-scrollbar {
 }
 
 .imagelist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
+
+  background-color: hsl(180, 100%, 98%, 1);
 
   padding: 24px 50px;
 }
@@ -94,7 +101,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   text-align: center;
   font-size: 64px;
-  margin-top: 50px;
+  margin-top: 127px;
 }
 
 .build {
@@ -435,10 +442,10 @@ p {
 .review {
   display: grid;
   gap: 30px;
-  padding: 80px;
 }
 
 .help-list {
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -499,7 +506,7 @@ p {
 
 .slick-track {
   display: flex !important;
-  gap: 50px;
+  gap: 35px;
 }
 
 .hr {
@@ -599,7 +606,7 @@ p {
 
 .shareimage {
   float: right;
-  margin-top: -380px;
+  margin-top: -310px;
   height: 550px;
 }
 
@@ -666,8 +673,8 @@ p {
 
 .footer-hr {
   transform: rotate(0deg);
-  width: 1350px;
-  border: 1px solid hsla(198, 100%, 96%, 1);
+  width: 800px;
+  border: 0.4px solid hsla(180, 11%, 69%, 1);
 }
 
 a {
@@ -717,7 +724,9 @@ a {
     right: 0;
     width: fit-content;
   }
-
+  .buildbutton {
+    margin-top: 100px;
+  }
   .dropdown-close {
     display: block;
     position: absolute;
@@ -1191,7 +1200,7 @@ a {
   }
 
   .communityimage {
-    width: 630px;
+    width: 655px;
   }
 
   .share-profile {
@@ -1231,5 +1240,84 @@ a {
 
   .personal {
     width: 285px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .imgboy,
+  .imggirl {
+    width: 450px;
+  }
+
+  .service {
+    margin-top: -580px;
+    margin-left: -120px;
+  }
+
+  .mark {
+    margin-left: 270px;
+  }
+
+  .ronaldprofile {
+    height: 240px;
+    top: 5px;
+  }
+
+  .successful {
+    height: 250px;
+  }
+
+  .payment,
+  .businesstools,
+  .contact {
+    padding: 18px 0px;
+  }
+
+  .group {
+    height: 205px;
+    left: 20px;
+  }
+
+  .profile-p {
+    font-size: 14px;
+    width: 365px;
+  }
+
+  .profilepage {
+    font-size: 20px;
+  }
+
+  .paragraphtool {
+    padding: 0px 18px;
+    width: 330px;
+    font-size: 14px;
+  }
+
+  .paragraph {
+    width: 290px;
+    font-size: 14px;
+    padding: 0px 18px;
+  }
+  .businessimage {
+    height: 280px;
+    top: 37px;
+    padding: 18px;
+  }
+
+  .contactimage {
+    padding: 18px;
+    top: 41px;
+    height: 280px;
+  }
+
+  .footer-hr {
+    width: 1200px;
+  }
+
+  .gridcontainer2 {
+    padding: 40px;
+  }
+
+  .communityimage {
+    width: 440px;
   }
 }

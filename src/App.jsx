@@ -11,6 +11,7 @@ import Share from "./components/SharePage";
 export default function App() {
   return (
     <div className='App'>
+      {/* <Login /> */}
       <CreditService />
       <Integrated />
       <ProfilePage />

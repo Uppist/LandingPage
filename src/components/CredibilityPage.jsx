@@ -2,6 +2,7 @@
 
 import "../style.css";
 import luround from "../../public/LUROUND1.png";
+
 import imageboy from "../../public/imageboy.jpg";
 import imagegirl from "../../public/imagegirl.jpg";
 import Calendar from "./Calender";
@@ -15,54 +16,16 @@ export default function CreditService() {
       sidebar.style.right = "0";
     }
   }
-
-  function onClose() {
-    const closeSidebarButton = document.querySelector(".dropdown-close");
-    const sidebar = document.querySelector(".side-bar");
-    if (closeSidebarButton) {
-      sidebar.style.right = "-500px";
-    }
-  }
-
   return (
     <div className='firstcontainer'>
+      {/* <div className='fixed-top'>
+        <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
+          <button className='getapp'>Get the app</button>
+        </a>
+      </div> */}
+
       <div className='imagelist'>
-        <div className='side-bar' id='side-bar'>
-          <div className='image-close'>
-            <img className='image-luround' src={luround} />
-
-            <a className='dropdown-close' id='sidebar-close' onClick={onClose}>
-              <svg
-                className='cancel'
-                width='25'
-                height='24'
-                viewBox='0 0 25 24'
-                fill='none'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  d='M7.2749 17.243L12.5179 12L17.7609 17.243M17.7609 6.757L12.5169 12L7.2749 6.757'
-                  stroke='#1D2E2E'
-                  strokeWidth='1.8'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                />
-              </svg>
-            </a>
-          </div>
-
-          <ul className='sidebar-menu'>
-            <li>
-              <button className='sidebar-login'>Log In</button>
-            </li>
-            <li>
-              <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
-                <button className='sidebar-getapp'>Get the app</button>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <img className='luround' src={luround} />
+        <img className='luround' src={luround} alt='Luround Logo' />
 
         <ul className='ullist'>
           <li className='list'>
@@ -92,6 +55,7 @@ export default function CreditService() {
           </li>
         </ul>
       </div>
+
       <div className='buildbutton'>
         <span className='build'>
           Build <span className='easily'>credibility</span>, reach customers
