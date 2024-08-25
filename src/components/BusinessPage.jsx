@@ -1,9 +1,6 @@
 /** @format */
-import personal from "../elements/personal.jpg";
+import personal from "../elements/personal.png";
 import community from "../elements/community.jpg";
-import manage from "../elements/manage.png";
-
-import process from "../elements/process.png";
 
 export default function Business() {
   return (
@@ -17,8 +14,6 @@ export default function Business() {
             interactions, and boost your productivity.
           </p>
           <img className='personal' src={personal} />
-          <img className='manage' src={manage} />
-          <img className='process' src={process} />
         </div>
         <div>
           <img className='communityimage' src={community} />

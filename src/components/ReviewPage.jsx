@@ -15,11 +15,13 @@ export default function Review() {
   };
   const settings = {
     dots: false,
-    infinite: false,
-    speed: 500,
+    infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    initialSlide: 0,
+    autoplay: true,
+    speed: 10000,
+    autoplaySpeed: 1000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,

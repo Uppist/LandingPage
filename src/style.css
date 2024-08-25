@@ -223,7 +223,7 @@ hr {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 24px;
 }
 
 .profile {
@@ -258,18 +258,15 @@ hr {
 
 .ronaldprofile {
   position: relative;
-  top: 105px;
-  width: 296px;
-  height: 185px;
-  border-radius: 16px;
+  top: 5px;
+  height: 292px;
 }
 
-.onetime {
+.successful {
   position: relative;
-  top: 20px;
-  border-radius: 16px;
+  top: 8px;
+  height: 290px;
 }
-
 p {
   width: 372px;
 }
@@ -306,37 +303,30 @@ p {
   gap: 8px;
 }
 
-.booknow {
-  padding: 12px;
-  background-color: white;
-  width: 305px;
-  border-radius: 8px;
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 16px;
-}
 .pbc {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 24px;
 }
 
 .payment {
-  background: linear-gradient(hsl(0, 56%, 96%, 1), hsl(245, 92%, 91%, 1));
+  background: linear-gradient(hsla(40, 100%, 94%, 1), hsla(11, 100%, 96%, 1));
 }
 
 .group {
-  width: 456px;
+  height: 254px;
   position: relative;
   top: 19px;
-  left: 24px;
+  left: 33px;
   margin-bottom: 75px;
 }
 
 .payment,
 .businesstools,
 .contact {
+  display: grid;
+  place-items: center;
   padding: 24px;
   padding-bottom: 0px;
   border-radius: 24px;
@@ -345,7 +335,7 @@ p {
 }
 
 .businesstools {
-  background: linear-gradient(hsl(40, 100%, 94%, 1), hsl(11, 100%, 96%, 1));
+  background: linear-gradient(hsla(0, 56%, 96%, 1), hsla(245, 92%, 91%, 1));
 }
 
 .contact {
@@ -353,15 +343,15 @@ p {
 }
 
 .businessimage {
-  width: 320px;
+  height: 288px;
   position: relative;
-  top: 60px;
+  top: 4px;
 }
 
 .contactimage {
-  width: 320px;
+  height: 300px;
   position: relative;
-  top: 88px;
+  top: 3px;
 }
 
 .profilepage {
@@ -439,16 +429,7 @@ p {
 
 .personal {
   margin: 0 auto;
-}
-
-.manage {
-  margin-top: -400px;
-  margin-left: 405px;
-}
-
-.process {
-  margin-top: -290px;
-  margin-left: 90px;
+  height: 478px;
 }
 
 .review {
@@ -619,6 +600,7 @@ p {
 .shareimage {
   float: right;
   margin-top: -380px;
+  height: 550px;
 }
 
 .scanimage {
@@ -818,11 +800,10 @@ a {
     width: 300px;
   }
   .group {
-    width: 246px;
+    width: 335px;
+    height: 200px;
     position: relative;
-    left: 37px;
-    padding: 18px 12px;
-    margin-bottom: 24px;
+    left: 25px;
   }
   .image {
     margin-bottom: 0;
@@ -901,9 +882,9 @@ a {
   }
 
   .ronaldprofile {
-    width: 132px;
-    height: 98px;
-    top: 85px;
+    width: 330px;
+    height: 182px;
+    top: 1px;
   }
 
   .image-luround {
@@ -914,18 +895,11 @@ a {
     width: 132px;
     height: 182px;
   }
-  .booknow {
-    width: fit-content;
-    padding: 9px 93px;
-    font-size: 14px;
-  }
 
   .successful {
-    padding: 8px 12px;
     position: relative;
     top: 8px;
-    width: 246px;
-    border-radius: 20px;
+    width: 330px;
   }
   .line-span {
     font-weight: 200;
@@ -969,13 +943,14 @@ a {
   }
 
   .businessimage {
-    width: 246px;
-    height: 216px;
+    width: 340px;
+    /* height: 216px; */
     top: 0px;
   }
 
   .contactimage {
-    width: 270px;
+    width: 347px;
+    height: 280px;
     top: 0;
   }
 
@@ -1021,7 +996,8 @@ a {
   }
 
   .personal {
-    width: 164px;
+    width: 330px;
+    height: 260px;
   }
 
   .manage {
@@ -1036,8 +1012,8 @@ a {
     margin-left: 0px;
   }
   .communityimage {
-    width: 320px;
-    height: 450px;
+    width: 375px;
+    height: 510px;
   }
 
   .share {
@@ -1123,6 +1099,7 @@ a {
 
   .name {
     font-size: 12px;
+    font-family: "Inter";
   }
   .dataname {
     font-size: 18px;
@@ -1193,7 +1170,8 @@ a {
   }
 
   .group {
-    width: 585px;
+    width: 626px;
+    height: 400px;
   }
 
   .businessimage,

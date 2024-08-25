@@ -1,12 +1,10 @@
 /** @format */
 import "../style.css";
-import profile from "../elements/RonaldProfile.jpg";
-import onetime from "../elements/onetime.jpg";
-
-import business from "../elements/business.jpg";
-import contact from "../elements/contact.jpg";
-import successful from "../elements/successful.jpg";
-import group from "../elements/group.png";
+import profile from "../elements/ronald.png";
+import business from "../elements/business.png";
+import contact from "../elements/contact.png";
+import successful from "../elements/successful.png";
+import group from "../elements/payment.png";
 export default function Integrated() {
   return (
     <div className='gridcontainer'>
@@ -25,8 +23,7 @@ export default function Integrated() {
             </p>
 
             <div className='image2'>
-              <img className='ronaldprofile' src={profile} />
-              <img className='onetime' src={onetime} />
+              <img className='ronaldprofile' src={profile} />{" "}
             </div>
           </div>
           <div className='bookings'>
@@ -37,9 +34,8 @@ export default function Integrated() {
             </p>
 
             <div className='booknow'>
-              <span>Book Now</span>
+              <img className='successful' src={successful} />
             </div>
-            <img className='successful' src={successful} />
           </div>
         </div>
         <div className='pbc'>
@@ -50,8 +46,6 @@ export default function Integrated() {
             </p>
             <div>
               <img className='group' src={group} />
-              {/* <img className='payment2' src={payment2} /> */}
-              {/* <img className='payment1' src={payment1} /> */}
             </div>
           </div>
 

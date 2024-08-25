@@ -100,7 +100,9 @@ export default function CreditService() {
         </span>
 
         <div>
-          <button className='download'>Download Luround</button>
+          <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
+            <button className='download'>Download Luround</button>
+          </a>
         </div>
       </div>
       <div className='image'>

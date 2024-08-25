@@ -1,6 +1,5 @@
 /** @format */
-import share from "../elements/share.jpg";
-import scan from "../elements/scan.jpg";
+import share from "../elements/share.png";
 
 export default function Share() {
   return (
@@ -88,10 +87,6 @@ export default function Share() {
 
         <div>
           <img className='shareimage' src={share} />
-          <div className='scanimage'>
-            <img className='scan' src={scan} />
-            <label className='qr'>Scan QR code and share your services</label>
-          </div>
         </div>
       </div>
     </div>
