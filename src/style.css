@@ -977,7 +977,7 @@ a {
   }
 
   .gridcontainer2 {
-    padding: 32px 24px;
+    padding: 18px 12px;
   }
 
   .grid2 {
@@ -1197,5 +1197,39 @@ a {
   .share-profile {
     font-size: 35px;
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .ronaldprofile {
+    width: 280px;
+  }
+
+  .successful {
+    width: 285px;
+    height: 251px;
+  }
+
+  .group {
+    width: 288px;
+    height: 195px;
+  }
+
+  .businessimage {
+    width: 295px;
+    height: 250px;
+  }
+
+  .contactimage {
+    width: 290px;
+    height: 244px;
+  }
+
+  .communityimage {
+    width: 334px;
+  }
+
+  .personal {
+    width: 285px;
   }
 }
