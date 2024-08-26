@@ -42,28 +42,28 @@ export default function Integrated() {
         </div>
         <div className='pbc'>
           <div className='payment'>
-            <div className='page'>
+            <div className='page1'>
               <span className='profilepage'>Payments</span>
-              <scan className='profile-p'>
+              <span className='profile-p'>
                 Accept payments for your services seamlessly
-              </scan>
+              </span>
             </div>
             <img className='group' src={group} />
           </div>
 
           <div className='businesstools'>
-            <div className='page'>
+            <div className='page1'>
               <span className='profilepage'>Integrated Business Tools</span>
-              <scan className='paragraphtool'>
+              <span className='paragraphtool'>
                 Manage your business operations like a pro using business tools
                 such as quotes, invoices, and receipts.
-              </scan>
+              </span>
             </div>
             <img className='businessimage' src={business} />
           </div>
 
           <div className='contact'>
-            <div className='page'>
+            <div className='page1'>
               <span className='profilepage'>Contacts</span>
               <span className='paragraph'>
                 Manage your contacts effortlessly and see their entire

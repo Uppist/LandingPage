@@ -204,6 +204,13 @@ body::-webkit-scrollbar {
   gap: 10px;
 }
 
+.page1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 8px;
+}
+
 .serviceproviders {
   font-size: 18px;
   font-weight: 200;
@@ -408,7 +415,7 @@ p {
 .circle {
   position: absolute;
   margin-top: -7px;
-  margin-left: -120px;
+  margin-left: -111px;
 }
 
 .gridcontainer2 {
@@ -513,6 +520,7 @@ p {
 .slick-slide {
   box-sizing: border-box;
   padding: 0 10px;
+  width: 400px;
 }
 
 .slick-track {
@@ -549,6 +557,11 @@ p {
 }
 
 .datareview {
+  font-size: 18px;
+  width: 352px;
+  display: block;
+  font-weight: 400;
+  line-height: 24px;
   font-family: "Inter";
   color: hsla(180, 23%, 15%, 1);
 }
@@ -1004,7 +1017,7 @@ a {
     width: 87px;
     height: 27px;
     margin-top: 0;
-    margin-left: -80px;
+    margin-left: -70px;
   }
 
   .gridcontainer2 {

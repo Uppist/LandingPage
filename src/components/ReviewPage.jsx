@@ -8,6 +8,8 @@ import Data from "../data.json";
 export default function Review() {
   let sliderRef = useRef(null);
   const next = () => {
+    console.log("Next button clicked");
+
     sliderRef.current.slickNext();
   };
   const previous = () => {
@@ -16,12 +18,12 @@ export default function Review() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 10000,
-    autoplaySpeed: 1000,
-    cssEase: "linear",
+    autoplaySpeed: 2000,
+    cssEase: "ease-in-out",
     responsive: [
       {
         breakpoint: 1024,
@@ -51,8 +53,9 @@ export default function Review() {
       <div className='help-list'>
         <span className='help'>See how Luround has helped others</span>
         <ul className='arrow'>
-          <li onClick={previous}>
+          <li>
             <svg
+              onClick={previous}
               className='arrow-left'
               width='32'
               height='33'
@@ -76,8 +79,9 @@ export default function Review() {
               />
             </svg>
           </li>
-          <li onClick={next}>
+          <li>
             <svg
+              onClick={next}
               className='arrow-right'
               width='32'
               height='33'
