@@ -116,10 +116,12 @@ export default function Review() {
             <div className='businessowner'>
               <span className='datareview'>{data.review}</span>
               <hr className='hr' />
-              <img className='imageowner' src={data.image}></img>
-              <div className='name'>
-                <span className='dataname'>{data.name}</span>
-                <span>{data.Occupation}</span>
+              <div>
+                <img className='imageowner' src={data.image}></img>
+                <div className='name'>
+                  <span className='dataname'>{data.name}</span>
+                  <span>{data.Occupation}</span>
+                </div>
               </div>
             </div>
           ))}

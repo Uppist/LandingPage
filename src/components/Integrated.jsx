@@ -43,14 +43,12 @@ export default function Integrated() {
         <div className='pbc'>
           <div className='payment'>
             <div className='page'>
-              <span className='profilepage'>Payment</span>
+              <span className='profilepage'>Payments</span>
               <scan className='profile-p'>
                 Accept payments for your services seamlessly
               </scan>
             </div>
-            <div>
-              <img className='group' src={group} />
-            </div>
+            <img className='group' src={group} />
           </div>
 
           <div className='businesstools'>

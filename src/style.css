@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 
   background-color: hsl(180, 100%, 98%, 1);
 
-  padding: 24px;
+  padding: 5px 80px;
 }
 
 .luround {
@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   text-align: center;
   font-size: 64px;
-  margin-top: 127px;
+  margin-top: 90px;
 }
 
 .build {
@@ -200,6 +200,7 @@ body::-webkit-scrollbar {
 .page {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   gap: 10px;
 }
 
@@ -252,13 +253,10 @@ hr {
 
 .profile {
   background: linear-gradient(hsl(39, 100%, 96%, 1), hsl(320, 46%, 95%, 1));
-  padding: 24px;
-  padding-bottom: 0px;
   border-radius: 24px;
   text-align: center;
   display: grid;
   place-items: center;
-  gap: 32px;
 }
 
 .profilepage {
@@ -283,8 +281,8 @@ hr {
 
 .ronaldprofile {
   position: relative;
-  top: 5px;
-  height: 292px;
+  top: 6px;
+  height: 276px;
 }
 
 .successful {
@@ -298,7 +296,6 @@ p {
 
 .paragraphtool {
   width: 355px;
-  margin-bottom: 25px;
   font-size: 16px;
   font-weight: 500;
   font-family: "Inter";
@@ -318,8 +315,6 @@ p {
     hsl(256, 65%, 92%, 1),
     hsl(338, 52%, 96%, 1)
   );
-
-  padding: 24px;
   padding-bottom: 0px;
   border-radius: 24px;
   text-align: center;
@@ -340,19 +335,17 @@ p {
 }
 
 .group {
-  height: 254px;
+  height: 244px;
   position: relative;
-  top: 19px;
-  left: 33px;
-  margin-bottom: 75px;
+  left: 17px;
 }
 
 .payment,
 .businesstools,
 .contact {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   place-items: center;
-  padding: 24px;
   padding-bottom: 0px;
   border-radius: 24px;
   text-align: center;
@@ -376,7 +369,7 @@ p {
 .contactimage {
   height: 300px;
   position: relative;
-  top: 3px;
+  top: 8px;
 }
 
 .profilepage {
@@ -540,13 +533,19 @@ p {
   margin-top: 50px;
   border-radius: 64px;
 }
-
+.name {
+}
 .name {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -50px;
+  top: -55px;
   left: 85px;
+  gap: 4px;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: hsla(180, 23%, 15%, 0.65);
 }
 
 .datareview {
@@ -673,7 +672,9 @@ p {
 }
 
 .footer-span {
-  width: 600px;
+  width: 690px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .social-media {
@@ -699,12 +700,6 @@ a {
   text-decoration: none;
 }
 
-.name {
-  font-size: 14px;
-  font-family: "Inter";
-  font-weight: 200;
-  color: hsla(180, 23%, 15%, 0.65);
-}
 .dataname {
   font-size: 20px;
   font-weight: 600;
@@ -747,7 +742,7 @@ a {
     width: fit-content;
   }
   .buildbutton {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .dropdown-close {
     display: block;
@@ -815,7 +810,7 @@ a {
 
   .imagelist {
     align-items: center;
-    padding: 24px;
+    padding: 5px 24px;
   }
 
   .list {
@@ -831,10 +826,12 @@ a {
     width: 300px;
   }
   .group {
-    width: 335px;
-    height: 200px;
+    width: 299px;
+    height: 193px;
     position: relative;
     left: 25px;
+    padding: 0px 24px;
+    margin-bottom: 70px;
   }
   .image {
     margin-bottom: 0;
@@ -900,6 +897,7 @@ a {
   .profilepage,
   .bookings {
     font-size: 20px;
+    gap: 24px;
   }
 
   .profile-p {
@@ -913,9 +911,10 @@ a {
   }
 
   .ronaldprofile {
-    width: 330px;
-    height: 182px;
-    top: 1px;
+    width: 280px;
+    height: 165px;
+    top: 0px;
+    padding: 0px 24px;
   }
 
   .image-luround {
@@ -928,9 +927,9 @@ a {
   }
 
   .successful {
-    position: relative;
-    top: 8px;
-    width: 330px;
+    width: 299px;
+    height: 250px;
+    padding: 0px 24px;
   }
   .line-span {
     font-weight: 200;
@@ -944,8 +943,7 @@ a {
   .payment,
   .businesstools,
   .contact {
-    display: grid;
-    place-items: center;
+    gap: 24px;
   }
   .payment3,
   .payment2,
@@ -974,15 +972,17 @@ a {
   }
 
   .businessimage {
-    width: 340px;
-    /* height: 216px; */
+    width: 299px;
+    height: 245px;
     top: 0px;
+    padding: 0px 24px;
   }
 
   .contactimage {
-    width: 347px;
-    height: 280px;
+    width: 299px;
+    height: 266px;
     top: 0;
+    padding: 0px 24px;
   }
 
   .more {
@@ -1027,8 +1027,8 @@ a {
   }
 
   .personal {
-    width: 330px;
-    height: 260px;
+    width: 290px;
+    height: 239px;
   }
 
   .manage {
@@ -1043,8 +1043,7 @@ a {
     margin-left: 0px;
   }
   .communityimage {
-    width: 375px;
-    height: 510px;
+    width: 330px;
   }
 
   .share {
@@ -1253,7 +1252,7 @@ a {
     width: 285px;
   }
 }
-@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+@media only screen and (min-width: 1201px) and (max-width: 1399px) {
   .imgboy,
   .imggirl {
     width: 450px;
@@ -1269,23 +1268,17 @@ a {
   }
 
   .ronaldprofile {
-    height: 240px;
-    top: 5px;
+    height: 260px;
   }
 
   .successful {
     height: 250px;
   }
 
-  .payment,
-  .businesstools,
-  .contact {
-    padding: 18px 0px;
-  }
-
   .group {
+    padding: 0px 24px;
     height: 205px;
-    left: 20px;
+    left: 25px;
   }
 
   .profile-p {
@@ -1298,7 +1291,6 @@ a {
   }
 
   .paragraphtool {
-    padding: 0px 18px;
     width: 330px;
     font-size: 14px;
   }
@@ -1306,18 +1298,16 @@ a {
   .paragraph {
     width: 290px;
     font-size: 14px;
-    padding: 0px 18px;
   }
   .businessimage {
     height: 280px;
-    top: 37px;
-    padding: 18px;
+    padding: 0px 18px;
   }
 
   .contactimage {
-    padding: 18px;
-    top: 41px;
-    height: 280px;
+    padding: 0px 24px;
+    height: 290px;
+    padding: 0px 18px;
   }
 
   .footer-hr {
