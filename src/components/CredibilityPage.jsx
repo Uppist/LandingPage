@@ -14,6 +14,8 @@ export default function CreditService() {
 
     if (dropdownButton) {
       sidebar.style.right = "0";
+      sidebar.classList.add("active");
+      sidebar.classList.remove("fade-out");
     }
   }
 
@@ -22,6 +24,7 @@ export default function CreditService() {
     const sidebar = document.querySelector(".side-bar");
     if (closeSidebarButton) {
       sidebar.style.right = "-500px";
+      sidebar.classList.add("fade-out");
     }
   }
   return (

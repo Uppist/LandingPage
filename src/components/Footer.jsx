@@ -3,11 +3,13 @@ import luround3 from "../../public/LUROUND3.png";
 export default function Footer() {
   return (
     <footer className='footer'>
-      <img className='luround3' src={luround3} />
-      <span className='footer-span'>
-        All-in-one app to help consultants and coaches build credibility, reach
-        new customers faster and organize their practice seamlessly.
-      </span>
+      <div className='footer-luround'>
+        <img className='luround3' src={luround3} />
+        <span className='footer-span'>
+          All-in-one app to help consultants and coaches build credibility,
+          reach new customers faster and organize their practice seamlessly.
+        </span>
+      </div>
 
       <ul className='social-media'>
         <li>

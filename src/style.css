@@ -444,14 +444,14 @@ p {
   padding: 24px;
 }
 
-.stay-unlock > span {
+.stay-unlock > div > span {
   font-size: 24px;
   font-weight: 700;
   color: hsla(180, 23%, 15%, 1);
   font-family: "Inter";
 }
 
-.stay-unlock > p {
+.stay-unlock > div > p {
   font-size: 16px;
   font-weight: 400;
   color: hsla(180, 23%, 15%, 1);
@@ -591,7 +591,7 @@ p {
   color: hsla(180, 23%, 15%, 1);
   font-size: 48px;
   font-weight: 600;
-
+  display: block;
   font-family: "Familjen Grotesk";
   width: 600px;
 }
@@ -693,6 +693,7 @@ p {
 .footer-span {
   width: 690px;
   font-size: 20px;
+  font-family: "Inter";
   font-weight: 400;
 }
 
@@ -700,7 +701,7 @@ p {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 24px;
 }
 
 .line-span {
@@ -735,10 +736,6 @@ a {
     height: 32px;
   }
 
-  .profilepage1 {
-    padding: 32px 24px;
-  }
-
   .luround4 {
     display: block;
   }
@@ -748,13 +745,35 @@ a {
   }
   .side-bar {
     background-color: white;
-    width: fit-content;
+    width: 100%;
+    height: 100%;
     display: block;
     position: fixed;
     top: 0;
     right: -600px;
     overflow-y: auto;
-    transition: 0.9s ease;
+    transform: translateX(600px);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  }
+
+  .side-bar.active {
+    transform: translateX(0);
+    right: 0;
+    opacity: 1;
+  }
+
+  .side-bar.fade-out {
+    transform: translateX(600px);
+    opacity: 0;
+  }
+
+  .list-menu {
+    display: block;
+  }
+
+  .download {
+    font-size: 16px;
   }
 
   .slick-slide {
@@ -762,12 +781,9 @@ a {
   }
 
   .help-list {
-    padding: 32px 24px;
+    padding: 0px 24px;
   }
-  .side-bar.active {
-    right: 0;
-    width: fit-content;
-  }
+
   .buildbutton {
     margin-top: 70px;
   }
@@ -783,7 +799,6 @@ a {
 
   .dropdown-btn {
     cursor: pointer;
-    color: red;
   }
 
   .cancel {
@@ -844,22 +859,11 @@ a {
     display: none;
   }
 
-  .list-menu {
-    display: block;
-  }
-
   .build {
     font-size: 32px;
     width: 300px;
   }
-  .group {
-    width: 299px;
-    height: 193px;
-    position: relative;
-    left: 25px;
-    padding: 0px 24px;
-    margin-bottom: 70px;
-  }
+
   .image {
     margin-bottom: 0;
     gap: 10px;
@@ -884,6 +888,7 @@ a {
     margin-left: 94px;
     font-size: 14px;
     padding: 8px;
+    border-radius: 8px;
   }
 
   .service {
@@ -891,6 +896,7 @@ a {
     padding: 8px;
     font-size: 14px;
     margin-left: -110px;
+    border-radius: 8px;
   }
 
   .check,
@@ -903,16 +909,18 @@ a {
     font-size: 16px;
     padding: 8px 16px;
   }
+  .provider {
+    gap: 3.8px;
+  }
 
   .serviceproviders {
     font-size: 8px;
     display: block;
     width: 70px;
-    margin-top: 5px;
   }
 
   hr {
-    width: 30px;
+    width: 22.8px;
     border: 0.24px solid hsla(180, 11%, 89%, 1);
   }
 
@@ -925,8 +933,18 @@ a {
     padding: 32px 24px;
   }
 
-  .profilepage,
+  .grid {
+    gap: 16px;
+  }
+
+  .profile,
   .bookings {
+    border-radius: 8px;
+    gap: 24px;
+    width: 312px;
+  }
+
+  .profilepage {
     font-size: 20px;
     gap: 24px;
   }
@@ -943,43 +961,64 @@ a {
 
   .ronaldprofile {
     width: 280px;
-    height: 165px;
+    height: 130px;
     top: 0px;
-    padding: 0px 24px;
+    padding: 0px 16px;
+  }
+
+  .successful {
+    width: 246px;
+    height: 220px;
+    padding: 0px 16px;
+  }
+
+  .pbc {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 16px;
+  }
+
+  .group {
+    width: 300px;
+    height: 213px;
+    position: relative;
+    left: 6px;
+    padding: 0px 16px;
+  }
+
+  .businessimage {
+    width: 246px;
+    height: 216px;
+    top: 0px;
+    padding: 0px 16px;
+  }
+
+  .contactimage {
+    width: 270px;
+    height: 266px;
+    top: 0;
+    padding: 0px 16px;
+  }
+  .profilepage1 {
+    padding: 32px 24px;
+    gap: 20px;
   }
 
   .image-luround {
     width: 109.52px;
   }
 
-  .onetime {
-    width: 132px;
-    height: 182px;
-  }
-
-  .successful {
-    width: 299px;
-    height: 250px;
-    padding: 0px 24px;
-  }
   .line-span {
     font-weight: 200;
-  }
-
-  .pbc {
-    grid-template-columns: 1fr;
-    place-items: center;
   }
 
   .payment,
   .businesstools,
   .contact {
     gap: 24px;
-  }
-  .payment3,
-  .payment2,
-  .payment1 {
-    width: 246px;
+    border-radius: 8px;
+    width: 312px;
+    height: 340px;
   }
 
   .image-close {
@@ -987,33 +1026,11 @@ a {
     background-color: hsla(180, 100%, 98%, 1);
     padding: 24px;
   }
-  .payment2 {
-    top: 0;
-    left: 30px;
-  }
-  .payment1 {
-    margin-top: -90px;
-    left: 40px;
-  }
 
   .paragraphtool,
   .paragraph {
     width: 280px;
     font-size: 14px;
-  }
-
-  .businessimage {
-    width: 299px;
-    height: 245px;
-    top: 0px;
-    padding: 0px 24px;
-  }
-
-  .contactimage {
-    width: 299px;
-    height: 266px;
-    top: 0;
-    padding: 0px 24px;
   }
 
   .more {
@@ -1039,27 +1056,42 @@ a {
   }
 
   .gridcontainer2 {
-    padding: 18px 12px;
+    margin-top: 0px;
+    padding: 32px 24px;
+  }
+
+  .stay-unlock {
+    height: 460px;
+    border-radius: 24px;
+    padding: 24px 16px;
+    display: block;
+  }
+
+  .text {
+    display: grid;
+    gap: 16px;
+  }
+
+  .stay-unlock > div > span {
+    font-size: 20px;
+    width: 290px;
+  }
+
+  .stay-unlock > div > p {
+    font-size: 14px;
+    width: 275px;
+    margin: 0;
+  }
+
+  .personal {
+    margin-top: 50px;
+    height: 239px;
   }
 
   .grid2 {
     grid-template-columns: 1fr;
     place-items: center;
-  }
-
-  .stay-unlock > span {
-    font-size: 20px;
-    width: 290px;
-  }
-
-  .stay-unlock > p {
-    font-size: 14px;
-    width: 275px;
-  }
-
-  .personal {
-    width: 290px;
-    height: 239px;
+    gap: 24px;
   }
 
   .manage {
@@ -1087,8 +1119,7 @@ a {
   }
   .shareimage {
     float: none;
-    margin-top: 25px;
-    margin-left: -25px;
+    margin: 0 auto;
   }
 
   .scanimage {
@@ -1108,10 +1139,21 @@ a {
     margin-top: 5px;
   }
 
+  .footer {
+    padding: 32px 0px 32px 0px;
+    gap: 20px;
+  }
+
+  .footer-luround {
+    display: grid;
+    gap: 24px;
+    place-items: center;
+  }
+
   .footer-span {
-    font-size: 20px;
-    font-weight: 200;
-    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 312px;
   }
 
   .footer-hr {
@@ -1128,8 +1170,7 @@ a {
   }
 
   .arrow {
-    gap: 15px;
-    margin-left: -20px;
+    gap: 24px;
   }
 
   .arrow-left,
@@ -1141,10 +1182,11 @@ a {
   .datareview {
     font-size: 16px;
     width: 280px;
+    line-height: 19.36px;
   }
 
   .businessowner {
-    width: 80% !important;
+    width: 312px !important;
   }
 
   .hr {
@@ -1152,7 +1194,7 @@ a {
   }
 
   .slick-track {
-    gap: 0px;
+    gap: 32px;
   }
 
   .name {
@@ -1160,6 +1202,19 @@ a {
   }
   .dataname {
     font-size: 18px;
+  }
+
+  .review {
+    padding: 32px 0px;
+  }
+
+  .share-container {
+    display: grid;
+    gap: 16px;
+  }
+
+  .share-clients {
+    gap: 24px;
   }
 }
 

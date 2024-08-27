@@ -5,16 +5,17 @@ export default function Share() {
   return (
     <div className='share'>
       <div className='share-clients'>
-        <span className='share-profile'>
-          <span className='easily'> Easily</span> share your profile, services,
-          rates, availability and more...
-        </span>
+        <div className='share-container'>
+          <span className='share-profile'>
+            <span className='easily'> Easily</span> share your profile,
+            services, rates, availability and more...
+          </span>
 
-        <p>
-          Connect with your clients in less than 30 seconds with a unique QR
-          code.
-        </p>
-
+          <p>
+            Connect with your clients in less than 30 seconds with a unique QR
+            code.
+          </p>
+        </div>
         <div className='buttontext'>
           <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
             <button className='button'>
