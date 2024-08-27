@@ -518,6 +518,7 @@ p {
 }
 
 .businessowner {
+  width: 90% !important;
   padding: 24px;
   border-radius: 24px;
   padding-bottom: 0px;
@@ -526,13 +527,12 @@ p {
 
 .slick-slide {
   box-sizing: border-box;
-  padding: 0 10px;
   width: 400px;
 }
 
 .slick-track {
   display: flex !important;
-  gap: 35px;
+  gap: 32px;
 }
 
 .hr {

@@ -20,7 +20,7 @@ export default function Review() {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     speed: 10000,
     autoplaySpeed: 2000,
     cssEase: "ease-in-out",
