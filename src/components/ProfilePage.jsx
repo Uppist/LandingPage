@@ -2,10 +2,18 @@
 
 export default function ProfilePage() {
   return (
-    <div className='profilepage'>
+    <div className='profilepage1'>
       <div className='more'>
         <span>
-          Get <b>MORE</b> done for <b>LESS</b> with our all-in-one solution
+          Get{" "}
+          <i>
+            <b>MORE</b>
+          </i>{" "}
+          done for{" "}
+          <i>
+            <b>LESS</b>
+          </i>{" "}
+          with our all-in-one solution
         </span>
       </div>
       <div className='profileall'>

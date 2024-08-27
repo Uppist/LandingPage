@@ -183,7 +183,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 32px 56px;
+  padding: 24px 80px;
   text-align: center;
   font-weight: 600;
   font-family: "Inter";
@@ -344,7 +344,7 @@ p {
 .group {
   height: 244px;
   position: relative;
-  left: 17px;
+  left: 44px;
 }
 
 .payment,
@@ -383,6 +383,13 @@ p {
   display: grid;
   place-items: center;
   gap: 24px;
+}
+
+.profilepage1 {
+  display: grid;
+  place-items: center;
+  gap: 24px;
+  padding: 80px 295px;
 }
 
 .more {
@@ -485,16 +492,16 @@ p {
 
 .arrow-left {
   padding: 12px;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   border-radius: 64px;
   background-color: hsl(180, 17%, 98%, 1);
 }
 
 .arrow-right {
   padding: 12px;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   border-radius: 64px;
   background-color: hsl(180, 17%, 98%, 1);
   transform: rotate(180deg);
@@ -531,7 +538,7 @@ p {
 .hr {
   border: 1px solid hsla(180, 11%, 89%, 1);
   transform: rotate(0deg);
-  width: 290px;
+  width: 352px;
   margin-top: 50px;
 }
 
@@ -729,6 +736,10 @@ a {
     height: 32px;
   }
 
+  .profilepage1 {
+    padding: 32px 24px;
+  }
+
   .luround4 {
     display: block;
   }
@@ -745,6 +756,10 @@ a {
     right: -600px;
     overflow-y: auto;
     transition: 0.9s ease;
+  }
+
+  .slick-slide {
+    width: 312px;
   }
 
   .help-list {
@@ -905,6 +920,10 @@ a {
   .integrated {
     font-size: 24px;
     width: 205px;
+  }
+
+  .gridcontainer {
+    padding: 32px 24px;
   }
 
   .profilepage,
@@ -1121,7 +1140,8 @@ a {
   }
 
   .datareview {
-    font-size: 14px;
+    font-size: 16px;
+    width: 280px;
   }
 
   .businessowner {
@@ -1129,11 +1149,11 @@ a {
   }
 
   .hr {
-    width: 250px;
+    width: 280px;
   }
 
   .slick-track {
-    gap: 10px;
+    gap: 0px;
   }
 
   .name {
@@ -1289,9 +1309,7 @@ a {
   }
 
   .group {
-    padding: 0px 24px;
-    height: 205px;
-    left: 25px;
+    left: 17px;
   }
 
   .profile-p {
@@ -1313,13 +1331,12 @@ a {
     font-size: 14px;
   }
   .businessimage {
-    height: 280px;
+    height: 270px;
     padding: 0px 18px;
   }
 
   .contactimage {
-    padding: 0px 24px;
-    height: 290px;
+    height: 280px;
     padding: 0px 18px;
   }
 
