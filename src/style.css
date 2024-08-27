@@ -548,8 +548,7 @@ p {
   margin-top: 50px;
   border-radius: 64px;
 }
-.name {
-}
+
 .name {
   display: flex;
   flex-direction: column;
