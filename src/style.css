@@ -716,6 +716,12 @@ p {
   border: 0.4px solid hsla(180, 11%, 69%, 1);
 }
 
+.footer-luround {
+  display: grid;
+  gap: 40px;
+  place-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -1146,9 +1152,7 @@ a {
   }
 
   .footer-luround {
-    display: grid;
     gap: 24px;
-    place-items: center;
   }
 
   .footer-span {
