@@ -1156,6 +1156,9 @@ a {
     font-weight: 400;
     width: 312px;
   }
+  .divimage {
+    display: flex;
+  }
 
   .footer-hr {
     width: 360px;
@@ -1222,6 +1225,10 @@ a {
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .build {
     width: 540px;
+  }
+
+  .divimage {
+    display: flex;
   }
 
   .image {
@@ -1316,6 +1323,9 @@ a {
     width: 285px;
     height: 251px;
   }
+  .divimage {
+    display: flex;
+  }
 
   .group {
     width: 288px;
@@ -1338,10 +1348,6 @@ a {
 
   .personal {
     width: 285px;
-  }
-
-  .divimage {
-    display: flex;
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1399px) {
