@@ -86,7 +86,7 @@ export default function Share() {
           </button>
         </div>
 
-        <div>
+        <div className='divimage'>
           <img className='shareimage' src={share} />
         </div>
       </div>
