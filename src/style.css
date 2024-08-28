@@ -299,6 +299,12 @@ hr {
 }
 p {
   width: 372px;
+  margin: 0;
+}
+.share-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .paragraphtool {
@@ -581,7 +587,7 @@ p {
 
 .share-clients {
   display: grid;
-  gap: 15px;
+  gap: 48px;
   color: hsla(180, 23%, 15%, 0.85);
   font-weight: 400;
   font-family: "Inter";
@@ -628,6 +634,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: left;
+  gap: 4px;
 }
 
 .get {
@@ -636,7 +643,8 @@ p {
 }
 
 .app {
-  font-weight: 200;
+  font-weight: 500;
+  font-size: 16px;
   font-family: "Inter";
 }
 
@@ -791,7 +799,7 @@ a {
   }
 
   .buildbutton {
-    margin-top: 70px;
+    margin-top: 60px;
   }
   .dropdown-close {
     display: block;
@@ -858,7 +866,7 @@ a {
 
   .imagelist {
     align-items: center;
-    padding: 5px 24px;
+    padding: 0px 24px;
   }
 
   .list {
@@ -1016,7 +1024,8 @@ a {
   }
 
   .line-span {
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 12px;
   }
 
   .payment,
@@ -1179,6 +1188,8 @@ a {
 
   .arrow {
     gap: 24px;
+    padding: 0;
+    margin: 0;
   }
 
   .arrow-left,
@@ -1194,7 +1205,7 @@ a {
   }
 
   .businessowner {
-    width: 312px !important;
+    width: 280px !important;
   }
 
   .hr {
@@ -1202,7 +1213,7 @@ a {
   }
 
   .slick-track {
-    gap: 32px;
+    gap: 0px;
   }
 
   .name {
@@ -1217,11 +1228,11 @@ a {
   }
 
   .share-container {
-    display: grid;
     gap: 16px;
   }
 
   .share-clients {
+    place-items: center;
     gap: 24px;
   }
 }
@@ -1331,19 +1342,49 @@ a {
     display: flex;
   }
 
+  .gridcontainer2 {
+    padding: 32px 0px;
+  }
+
+  .share {
+    padding: 16px 12px;
+  }
+
+  .help-list {
+    padding: 0px 0px 0px 24px;
+  }
+
+  .businessowner {
+    width: 250px !important;
+  }
+
+  .datareview {
+    font-size: 14px;
+    width: 260px;
+  }
+
+  .hr {
+    width: 250px;
+  }
+
   .group {
     width: 288px;
     height: 195px;
+    left: 12px;
   }
 
   .businessimage {
     width: 295px;
-    height: 250px;
+    height: 214px;
   }
 
   .contactimage {
     width: 290px;
-    height: 244px;
+    height: 214px;
+  }
+
+  .circle {
+    margin-left: -76px;
   }
 
   .communityimage {
