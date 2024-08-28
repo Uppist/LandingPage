@@ -1,29 +1,30 @@
 /** @format */
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+// /** @format */
+
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import Data from "../data.json";
 
 export default function Review() {
-  let sliderRef = useRef(null);
-  const next = () => {
-    console.log("Next button clicked");
+  const sliderRef = useRef(null);
 
+  const nextSlide = () => {
     sliderRef.current.slickNext();
   };
-  const previous = () => {
+
+  const prevSlide = () => {
     sliderRef.current.slickPrev();
   };
+
   const settings = {
     dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 10000,
-    autoplaySpeed: 2000,
-    cssEase: "ease-in-out",
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -48,6 +49,7 @@ export default function Review() {
       },
     ],
   };
+
   return (
     <div className='review'>
       <div className='help-list'>
@@ -55,7 +57,7 @@ export default function Review() {
         <ul className='arrow'>
           <li>
             <svg
-              onClick={previous}
+              onClick={prevSlide}
               className='arrow-left'
               width='32'
               height='33'
@@ -81,7 +83,7 @@ export default function Review() {
           </li>
           <li>
             <svg
-              onClick={next}
+              onClick={nextSlide}
               className='arrow-right'
               width='32'
               height='33'
@@ -109,19 +111,13 @@ export default function Review() {
       </div>
 
       <div className='reviewpart'>
-        <Slider
-          ref={(slider) => {
-            sliderRef.current = slider;
-          }}
-          {...settings}
-          className='custom-slider'
-        >
-          {Data.map((data) => (
-            <div className='businessowner'>
+        <Slider ref={sliderRef} {...settings} className='custom-slider'>
+          {Data.map((data, index) => (
+            <div className='businessowner' key={index}>
               <span className='datareview'>{data.review}</span>
               <hr className='hr' />
               <div>
-                <img className='imageowner' src={data.image}></img>
+                <img className='imageowner' src={data.image} alt={data.name} />
                 <div className='name'>
                   <span className='dataname'>{data.name}</span>
                   <span>{data.Occupation}</span>
