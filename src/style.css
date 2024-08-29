@@ -11,6 +11,10 @@
   display: none !important;
 }
 
+.slick-list {
+  margin-left: 40px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -753,6 +757,12 @@ a {
 .luround4 {
   display: none;
 }
+
+.privacy {
+  text-decoration: underline;
+  color: white;
+  font-weight: 200;
+}
 @media only screen and (max-width: 768px) {
   .luround {
     width: 109.52px;
@@ -1123,6 +1133,10 @@ a {
     width: 110px;
     margin-top: -190px;
     margin-left: 180px;
+  }
+
+  .slick-list {
+    margin-left: 0px;
   }
 
   .process {

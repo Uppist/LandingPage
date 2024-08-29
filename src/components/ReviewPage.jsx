@@ -23,7 +23,8 @@ export default function Review() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    speed: 2000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
     responsive: [
       {

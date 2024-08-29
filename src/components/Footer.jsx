@@ -1,5 +1,6 @@
 /** @format */
 import luround3 from "../../public/LUROUND3.png";
+import privacy from "../components/policy.html";
 export default function Footer() {
   return (
     <footer className='footer'>
@@ -71,6 +72,10 @@ export default function Footer() {
           </svg>
         </li>
       </ul>
+
+      <a href={privacy} className='privacy'>
+        Privacy Policy
+      </a>
       <div className='line-span'>
         <hr className='footer-hr' />
 
