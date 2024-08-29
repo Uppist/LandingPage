@@ -1,6 +1,6 @@
 /** @format */
 import luround3 from "../../public/LUROUND3.png";
-import privacy from "../components/policy.html";
+import privacy from "../../public/policy.html";
 export default function Footer() {
   return (
     <footer className='footer'>

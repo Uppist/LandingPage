@@ -37,7 +37,7 @@ export default function CreditService() {
             <button className='login'>Log In</button>
           </li>
           <li className='list'>
-            <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
+            <a href='https://play.google.com/store/apps/details?id=com.luround.uppist&pcampaignid=web_share'>
               <button className='getapp'>Get the app</button>
             </a>
           </li>
@@ -105,7 +105,7 @@ export default function CreditService() {
         </span>
 
         <div>
-          <a href='https://play.google.com/store/search?q=luround&c=apps&hl=en'>
+          <a href='https://play.google.com/store/apps/details?id=com.luround.uppist&pcampaignid=web_share'>
             <button className='download'>Download Luround</button>
           </a>
         </div>
