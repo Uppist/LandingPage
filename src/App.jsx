@@ -1,24 +1,19 @@
 /** @format */
 
-import Business from "./components/BusinessPage";
-import CreditService from "./components/CredibilityPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Website from "./components/Website";
+import Privacy from "./components/Privacy";
 import Footer from "./components/Footer";
-import Integrated from "./components/Integrated";
-import ProfilePage from "./components/ProfilePage";
-import Review from "./components/ReviewPage";
-import Share from "./components/SharePage";
 
 export default function App() {
   return (
     <div className='App'>
-      {/* <Login /> */}
-      <CreditService />
-      <Integrated />
-      <ProfilePage />
-      <Business />
-      <Review />
-      <Share />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/LandingPage' element={<Website />} />
+          <Route path='Privacy' element={<Privacy />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

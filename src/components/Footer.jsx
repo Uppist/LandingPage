@@ -1,7 +1,9 @@
 /** @format */
 import luround3 from "../../public/LUROUND3.png";
-import privacy from "../../public/policy.html";
+import Privacy from "./Privacy";
+import { Link } from "react-router-dom";
 export default function Footer() {
+  const privacyUrl = "./Privacy";
   return (
     <footer className='footer'>
       <div className='footer-luround'>
@@ -73,9 +75,10 @@ export default function Footer() {
         </li>
       </ul>
 
-      <a href={privacy} className='privacy'>
+      <Link to='/Privacy' className='privacy'>
         Privacy Policy
-      </a>
+      </Link>
+
       <div className='line-span'>
         <hr className='footer-hr' />
 
