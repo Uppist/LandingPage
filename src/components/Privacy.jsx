@@ -22,12 +22,14 @@ export default function Privacy() {
           <strong>
             <span
               style={{
-                fontSize: 20,
+                fontSize: 24,
                 display: "flex",
                 justifyContent: "center",
                 color: "hsla(180, 100%, 32%, 1)",
                 backgroundColor: "hsla(180, 100%, 98%, 1)",
                 padding: 32,
+                position: "relative",
+                top: -28,
               }}
             >
               <span data-custom-class='title'>
@@ -46,7 +48,6 @@ export default function Privacy() {
             <strong>
               <span
                 style={{
-                  fontSize: 24,
                   fontWeight: 600,
                   color: "hsla(180, 23%, 15%, 1)",
                   padding: 56,
