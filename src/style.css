@@ -312,6 +312,7 @@ hr {
 p {
   width: 372px;
   margin: 0;
+  font-size: 20px;
 }
 .share-container {
   display: flex;
@@ -421,6 +422,8 @@ p {
 }
 
 .profileall {
+  display: grid;
+  place-items: center;
   width: 665px;
   text-align: center;
   font-size: 60px;
@@ -763,7 +766,7 @@ a {
   color: white;
   font-weight: 200;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 720px) {
   .luround {
     width: 109.52px;
     height: 32px;
@@ -1202,6 +1205,7 @@ a {
 
   p {
     width: 305px;
+    font-size: 18px;
   }
 
   .help {
@@ -1260,9 +1264,16 @@ a {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 721px) and (max-width: 1200px) {
+  hr {
+    width: 53px;
+  }
   .build {
-    width: 540px;
+    width: 738px;
+  }
+
+  .buildbutton {
+    gap: 48px;
   }
 
   .image {
@@ -1271,13 +1282,13 @@ a {
   }
 
   .imggirl {
-    width: 330px;
+    width: 350px;
     margin-top: 50px;
     border-radius: 8px;
   }
 
   .imgboy {
-    width: 330px;
+    width: 350px;
     margin-top: 150px;
     border-radius: 8px;
   }
@@ -1290,19 +1301,61 @@ a {
   }
 
   .service {
-    margin-top: -465px;
+    margin-top: -490px;
     padding: 8px;
     font-size: 14px;
     margin-left: -110px;
   }
 
-  .services {
-    font-size: 30px;
+  .check,
+  .calendar {
+    width: 20px;
+    height: 20px;
   }
 
+  .services {
+    font-size: 24px;
+    padding: 16px 48px;
+  }
+
+  .serviceproviders {
+    font-size: 10px;
+  }
+
+  .provider {
+    gap: 8px;
+  }
+
+  .gridcontainer {
+    padding: 56px 83px;
+    gap: 48px;
+  }
+
+  .gridcontainer2 {
+    padding: 56px 20px;
+    margin-top: 0;
+  }
+
+  .page {
+    gap: 8px;
+  }
+
+  .profile {
+    gap: 32px;
+  }
   .integrated {
-    font-size: 45px;
-    width: 630px;
+    font-size: 40px;
+    width: 600px;
+  }
+  .ronaldprofile {
+    height: 310px;
+    margin-left: 32px;
+    margin-right: 32px;
+    top: 0px;
+  }
+  .successful {
+    height: 330px;
+    top: 4px;
   }
 
   .grid {
@@ -1310,7 +1363,7 @@ a {
   }
 
   .profilepage1 {
-    padding: 32px 0px;
+    padding: 56px 48px;
   }
 
   .profile-bookings {
@@ -1321,35 +1374,122 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .group {
-    width: 605px;
-    height: 400px;
-    left: 1px;
-  }
-
   .businessimage,
   .contactimage {
-    top: 4px;
+    top: 0px;
+  }
+
+  .paragraph {
+    width: 437px;
   }
 
   .payment,
   .businesstools,
   .contact {
+    width: 668px;
+    height: 400px;
+    gap: 24px;
     display: grid;
     place-items: center;
   }
 
+  .group {
+    width: 472px;
+    height: 292px;
+    left: 1px;
+  }
+
+  .paragraphtool {
+    width: 496px;
+  }
+
+  .profileall {
+    font-size: 48px;
+    width: 473px;
+  }
+
+  .platform {
+    font-size: 24px;
+  }
+
+  .circle {
+    width: 125px;
+    margin-top: -8px;
+    margin-left: -95px;
+  }
+
   .grid2 {
-    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .communityimage {
-    width: 655px;
+    width: 312px;
+    height: 502px;
+  }
+  .help {
+    font-size: 32px;
+    width: 252px;
+  }
+
+  .imagelist {
+    padding: 5px 40px;
+  }
+  .help-list {
+    padding: 56px 48px 0px 48px;
+  }
+  .slick-track {
+    gap: 64px;
+  }
+
+  .businessowner {
+    width: 360px !important;
+  }
+
+  .slick-list {
+    margin-left: 0;
+  }
+
+  .stay-unlock {
+    gap: 32px;
+  }
+  .stay-unlock > div > span {
+    width: 337px;
+  }
+
+  .stay-unlock > div > p {
+    width: 352px;
+    margin: 0;
+  }
+  .personal {
+    height: 292px;
+  }
+
+  .share {
+    padding: 56px 0px;
+    place-items: center;
+  }
+
+  .shareimage {
+    margin-top: 0px;
   }
 
   .share-profile {
-    font-size: 35px;
-    width: 300px;
+    width: 732px;
+  }
+
+  p {
+    width: 738px;
+  }
+  .buttontext {
+    justify-content: center;
+  }
+
+  .divimage {
+    margin: 0 auto;
+  }
+
+  .footer-hr {
+    width: 700px;
   }
 }
 
@@ -1488,5 +1628,9 @@ a {
 
   .businessowner {
     width: 352px !important;
+  }
+
+  .slick-list {
+    margin-left: -30px;
   }
 }

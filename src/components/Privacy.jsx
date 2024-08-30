@@ -17,10 +17,22 @@ export default function Privacy() {
           background: "url(data:image/svg+xml",
         }}
       />
-      <div data-custom-class='body'>
+      <div
+        data-custom-class='body'
+        style={{ color: "hsla(180, 23%, 15%, 1)", fontSize: 20 }}
+      >
         <div>
           <strong>
-            <span style={{ fontSize: 26 }}>
+            <span
+              style={{
+                fontSize: 48,
+                display: "flex",
+                justifyContent: "center",
+                color: "hsla(180, 100%, 32%, 1)",
+                backgroundColor: "hsla(180, 100%, 98%, 1)",
+                padding: 32,
+              }}
+            >
               <span data-custom-class='title'>
                 <bdt className='block-component' />
                 <bdt className='question'>Luround Privacy Policy</bdt>
@@ -33,12 +45,19 @@ export default function Privacy() {
           <br />
         </div>
         <div>
-          <span style={{ color: "rgb(127, 127, 127)" }}>
+          <span>
             <strong>
-              <span style={{ fontSize: 15 }}>
+              <span
+                style={{
+                  fontSize: 24,
+                  fontWeight: 600,
+                  color: "hsla(180, 23%, 15%, 1)",
+                  padding: 56,
+                }}
+              >
                 <span data-custom-class='subtitle'>
                   Last updated
-                  <bdt className='question'>August 29, 2024</bdt>
+                  <bdt className='question'> August 29, 2024</bdt>
                 </span>
               </span>
             </strong>
@@ -53,9 +72,9 @@ export default function Privacy() {
         <div>
           <br />
         </div>
-        <div style={{ lineHeight: "1.5" }}>
-          <span style={{ color: "rgb(127, 127, 127)" }}>
-            <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+        <div>
+          <span>
+            <span>
               <span data-custom-class='body_text'>
                 This Privacy Notice for
                 <bdt className='question'>
@@ -282,7 +301,13 @@ export default function Privacy() {
         </div>
         <div style={{ lineHeight: "1.5" }}>
           <strong>
-            <span style={{ fontSize: 15 }}>
+            <span
+              style={{
+                fontSize: 48,
+                fontWeight: 600,
+                color: "hsla(180, 23%, 15%, 1)",
+              }}
+            >
               <span data-custom-class='heading_1'>SUMMARY OF KEY POINTS</span>
             </span>
           </strong>
@@ -303,7 +328,7 @@ export default function Privacy() {
             </span>
           </span>
           <a data-custom-class='link' href='#toc'>
-            <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
+            <span>
               <span data-custom-class='body_text'>
                 <strong>
                   <em>table of contents</em>
@@ -543,8 +568,14 @@ export default function Privacy() {
         </div>
         <div id='toc' style={{ lineHeight: "1.5" }}>
           <span style={{ fontSize: 15 }}>
-            <span style={{ color: "rgb(127, 127, 127)" }}>
-              <span style={{ color: "rgb(0, 0, 0)" }}>
+            <span>
+              <span
+                style={{
+                  fontSize: 48,
+                  fontWeight: 600,
+                  color: "hsla(180, 23%, 15%, 1)",
+                }}
+              >
                 <strong>
                   <span data-custom-class='heading_1'>TABLE OF CONTENTS</span>
                 </strong>
@@ -769,11 +800,17 @@ export default function Privacy() {
           <br />
         </div>
         <div id='infocollect' style={{ lineHeight: "1.5" }}>
-          <span style={{ color: "rgb(0, 0, 0)" }}>
-            <span style={{ color: "rgb(0, 0, 0)", fontSize: 15 }}>
-              <span style={{ fontSize: 15, color: "rgb(0, 0, 0)" }}>
-                <span style={{ fontSize: 15, color: "rgb(0, 0, 0)" }}>
-                  <span id='control' style={{ color: "rgb(0, 0, 0)" }}>
+          <span
+            style={{
+              fontSize: 48,
+              fontWeight: 600,
+              color: "hsla(180, 23%, 15%, 1)",
+            }}
+          >
+            <span>
+              <span>
+                <span>
+                  <span id='control'>
                     <strong>
                       <span data-custom-class='heading_1'>
                         1. WHAT INFORMATION DO WE COLLECT?
@@ -1697,11 +1734,17 @@ export default function Privacy() {
           <br />
         </div>
         <div id='infouse' style={{ lineHeight: "1.5" }}>
-          <span style={{ color: "rgb(127, 127, 127)" }}>
-            <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                  <span id='control' style={{ color: "rgb(0, 0, 0)" }}>
+          <span
+            style={{
+              fontSize: 48,
+              fontWeight: 600,
+              color: "hsla(180, 23%, 15%, 1)",
+            }}
+          >
+            <span>
+              <span>
+                <span>
+                  <span id='control'>
                     <strong>
                       <span data-custom-class='heading_1'>
                         2. HOW DO WE PROCESS YOUR INFORMATION?
@@ -2433,30 +2476,18 @@ export default function Privacy() {
                             <div style={{ lineHeight: "1.5" }}>
                               <br />
                             </div>
-                            <div id='whoshare' style={{ lineHeight: "1.5" }}>
-                              <span style={{ color: "rgb(127, 127, 127)" }}>
-                                <span
-                                  style={{
-                                    color: "rgb(89, 89, 89)",
-                                    fontSize: 15,
-                                  }}
-                                >
-                                  <span
-                                    style={{
-                                      fontSize: 15,
-                                      color: "rgb(89, 89, 89)",
-                                    }}
-                                  >
-                                    <span
-                                      style={{
-                                        fontSize: 15,
-                                        color: "rgb(89, 89, 89)",
-                                      }}
-                                    >
-                                      <span
-                                        id='control'
-                                        style={{ color: "rgb(0, 0, 0)" }}
-                                      >
+                            <div id='whoshare'>
+                              <span
+                                style={{
+                                  fontSize: 48,
+                                  fontWeight: 600,
+                                  color: "hsla(180, 23%, 15%, 1)",
+                                }}
+                              >
+                                <span>
+                                  <span>
+                                    <span>
+                                      <span id='control'>
                                         <strong>
                                           <span data-custom-class='heading_1'>
                                             3. WHEN AND WITH WHOM DO WE SHARE
