@@ -1,6 +1,7 @@
 /** @format */
 
 import Footer from "./Footer";
+import Login from "./Login";
 
 /** @format */
 export default function Privacy() {
@@ -12,6 +13,7 @@ export default function Privacy() {
   />;
   return (
     <>
+      <Login />
       <span
         style={{
           display: "block",

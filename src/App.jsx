@@ -10,8 +10,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className='App'>
-        <Login />
-
         <Routes>
           <Route path='/LandingPage' element={<Website />} />
           <Route path='Privacy' element={<Privacy />} />
