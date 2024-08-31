@@ -8,14 +8,17 @@ import Login from "./components/Login";
 
 export default function App() {
   return (
-    <div className='App'>
-      <Login />
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className='App'>
+        <Login />
+
         <Routes>
           <Route path='/LandingPage' element={<Website />} />
           <Route path='Privacy' element={<Privacy />} />
+          <Route path='/LandingPage' element={<Login />} />
+          <Route path='/LandingPage' element={<Footer />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }

@@ -1,4 +1,8 @@
 /** @format */
+
+import Footer from "./Footer";
+
+/** @format */
 export default function Privacy() {
   <style
     dangerouslySetInnerHTML={{
@@ -22,7 +26,7 @@ export default function Privacy() {
           <strong>
             <span
               style={{
-                fontSize: 24,
+                fontSize: 48,
                 display: "flex",
                 justifyContent: "center",
                 color: "hsla(180, 100%, 32%, 1)",
@@ -34,7 +38,7 @@ export default function Privacy() {
             >
               <span data-custom-class='title'>
                 <bdt className='block-component' />
-                <bdt className='question'>Luround Privacy Policy</bdt>
+                <bdt className='question1'>Luround Privacy Policy</bdt>
                 <bdt className='statement-end-if-in-editor' />
               </span>
             </span>
@@ -51,6 +55,7 @@ export default function Privacy() {
                   fontWeight: 600,
                   color: "hsla(180, 23%, 15%, 1)",
                   padding: 56,
+                  fontFamily: "Inter",
                 }}
               >
                 <span data-custom-class='subtitle'>
@@ -76,6 +81,7 @@ export default function Privacy() {
             color: "hsla(180, 23%, 15%, 1)",
             fontSize: 18,
             padding: "0 40px",
+            fontFamily: "Inter",
           }}
         >
           <div>
@@ -313,6 +319,7 @@ export default function Privacy() {
                   fontSize: 20,
                   fontWeight: 600,
                   color: "hsla(180, 23%, 15%, 1)",
+                  fontFamily: "Familjen Grotesk",
                 }}
               >
                 <span data-custom-class='heading_1'>SUMMARY OF KEY POINTS</span>
@@ -585,6 +592,7 @@ export default function Privacy() {
                     fontSize: 20,
                     fontWeight: 600,
                     color: "hsla(180, 23%, 15%, 1)",
+                    fontFamily: "Familjen Grotesk",
                   }}
                 >
                   <strong>
@@ -618,7 +626,7 @@ export default function Privacy() {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span>
-              <span style={{ color: "rgb(0, 58, 250)" }}>
+              <span>
                 <a data-custom-class='link' href='#whoshare'>
                   3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
                 </a>
@@ -816,6 +824,7 @@ export default function Privacy() {
                 fontSize: 20,
                 fontWeight: 600,
                 color: "hsla(180, 23%, 15%, 1)",
+                fontFamily: "Familjen Grotesk",
               }}
             >
               <span>
@@ -1748,6 +1757,7 @@ export default function Privacy() {
                 fontSize: 20,
                 fontWeight: 600,
                 color: "hsla(180, 23%, 15%, 1)",
+                fontFamily: "Familjen Grotesk",
               }}
             >
               <span>
@@ -2481,6 +2491,7 @@ export default function Privacy() {
                                     fontSize: 20,
                                     fontWeight: 600,
                                     color: "hsla(180, 23%, 15%, 1)",
+                                    fontFamily: "Familjen Grotesk",
                                   }}
                                 >
                                   <span>
@@ -2574,6 +2585,7 @@ export default function Privacy() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

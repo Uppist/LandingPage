@@ -1,13 +1,18 @@
 /** @format */
 import luround3 from "../../public/LUROUND3.png";
-import Privacy from "./Privacy";
 import { Link } from "react-router-dom";
 export default function Footer() {
-  const privacyUrl = "./Privacy";
   return (
     <footer className='footer'>
       <div className='footer-luround'>
-        <img className='luround3' src={luround3} />
+        <Link to='/LandingPage/'>
+          <img
+            className='luround3'
+            src={luround3}
+            href='../components/Website.jsx'
+          />{" "}
+        </Link>
+
         <span className='footer-span'>
           All-in-one app to help consultants and coaches build credibility,
           reach new customers faster and organize their practice seamlessly.

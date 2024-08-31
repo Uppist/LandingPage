@@ -1,5 +1,7 @@
 /** @format */
 import luround from "../../public/LUROUND1.png";
+import Website from "./Website";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   function sideBar() {
@@ -23,7 +25,9 @@ export default function Login() {
   }
   return (
     <div className='imagelist'>
-      <img className='luround' src={luround} alt='Luround Logo' />
+      <Link to='/LandingPage/'>
+        <img className='luround' src={luround} alt='Luround Logo' />
+      </Link>
 
       <ul className='ullist'>
         <li className='list'>
