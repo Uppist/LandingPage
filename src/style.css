@@ -1566,6 +1566,10 @@ a {
   .personal {
     width: 285px;
   }
+
+  .footer-hr {
+    width: 310px;
+  }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1399px) {
   .imgboy,

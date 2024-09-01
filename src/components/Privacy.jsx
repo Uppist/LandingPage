@@ -60,7 +60,7 @@ export default function Privacy() {
                 style={{
                   fontWeight: 600,
                   color: "hsla(180, 23%, 15%, 1)",
-                  padding: 56,
+                  padding: 20,
                   fontFamily: "Inter",
                 }}
               >
@@ -85,8 +85,8 @@ export default function Privacy() {
           data-custom-class='body2'
           style={{
             color: "hsla(180, 23%, 15%, 1)",
-            fontSize: 18,
-            padding: "0 20px 0 0",
+            fontSize: 14,
+            padding: "0 20px",
             fontFamily: "Inter",
           }}
         >
