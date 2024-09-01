@@ -86,7 +86,7 @@ export default function Privacy() {
           style={{
             color: "hsla(180, 23%, 15%, 1)",
             fontSize: 18,
-            padding: "0 20px",
+            padding: "0 20px 0 0",
             fontFamily: "Inter",
           }}
         >

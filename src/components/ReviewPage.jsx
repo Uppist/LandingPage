@@ -69,10 +69,10 @@ export default function Review() {
               <path
                 d='M9 17L1 9L9 1'
                 stroke='#1D2E2E'
-                stroke-width='1.5'
-                stroke-miterlimit='10'
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeWidth='1.5'
+                strokeMiterlimit='10'
+                strokeLinecap='round'
+                strokeLinejoin='round'
               />
             </svg>
           </li>
@@ -89,10 +89,10 @@ export default function Review() {
               <path
                 d='M1 1L9 9L1 17'
                 stroke='#1D2E2E'
-                stroke-width='1.5'
-                stroke-miterlimit='10'
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeWidth='1.5'
+                strokeMiterlimit='10'
+                strokeLinecap='round'
+                strokeLinejoin='round'
               />
             </svg>
           </li>
