@@ -1,5 +1,5 @@
 /** @format */
-import share from "../../public/share.png";
+import share from "../elements/share.png";
 
 export default function Share() {
   return (

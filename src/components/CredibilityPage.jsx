@@ -2,8 +2,8 @@
 
 import "../style.css";
 
-import imageboy from "../../public/imageboy.jpg";
-import imagegirl from "../../public/imagegirl.jpg";
+import imageboy from "../elements/imageboy.jpg";
+import imagegirl from "../elements/imagegirl.jpg";
 import Calendar from "./Calender";
 import Check from "./Check";
 export default function CreditService() {

@@ -7,7 +7,7 @@ import Login from "./Login";
 /** @format */
 export default function Privacy() {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when this component mounts
+    window.scrollTo(0, 0);
   }, []);
   <style
     dangerouslySetInnerHTML={{
@@ -24,7 +24,6 @@ export default function Privacy() {
           margin: "0 auto 3.125rem",
           width: "11.125rem",
           height: "2.375rem",
-          background: "url(data:image/svg+xml",
         }}
       />
       <div data-custom-class='body'>

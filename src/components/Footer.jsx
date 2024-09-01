@@ -1,7 +1,7 @@
 /** @format */
 import { useEffect } from "react";
 
-import luround3 from "../../public/LUROUND3.png";
+import luround3 from "../elements/LUROUND3.png";
 import { Link } from "react-router-dom";
 export default function Footer() {
   useEffect(() => {
@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <div className='footer-luround'>
-        <Link to='/LandingPage/'>
+        <Link to='/'>
           <img
             className='luround3'
             src={luround3}

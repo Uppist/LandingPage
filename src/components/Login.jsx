@@ -1,8 +1,7 @@
 /** @format */
-import luround from "../../public/LUROUND1.png";
-import Website from "./Website";
+import luround from "../elements/LUROUND1.png";
 import { Link } from "react-router-dom";
-
+import "../style.css";
 export default function Login() {
   function sideBar() {
     const dropdownButton = document.querySelector(".list-menu");
@@ -25,7 +24,7 @@ export default function Login() {
   }
   return (
     <div className='imagelist'>
-      <Link to='/LandingPage/'>
+      <Link to='/'>
         <img className='luround' src={luround} alt='Luround Logo' />
       </Link>
 

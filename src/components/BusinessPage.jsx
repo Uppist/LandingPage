@@ -1,6 +1,6 @@
 /** @format */
-import personal from "../../public/personal.png";
-import community from "../../public/community.jpg";
+import personal from "../elements/personal.png";
+import community from "../elements/community.jpg";
 
 export default function Business() {
   return (
