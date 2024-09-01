@@ -22,10 +22,10 @@ export default function Review() {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplsay: true,
-    speed: 2000,
-    // autoplaySpeed: 2000,
-    // cssEase: "linear",
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
