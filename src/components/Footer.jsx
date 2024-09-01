@@ -1,7 +1,12 @@
 /** @format */
+import { useEffect } from "react";
+
 import luround3 from "../../public/LUROUND3.png";
 import { Link } from "react-router-dom";
 export default function Footer() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <footer className='footer'>
       <div className='footer-luround'>

@@ -525,7 +525,6 @@ p {
   height: 24px;
   border-radius: 64px;
   background-color: hsl(180, 17%, 98%, 1);
-  transform: rotate(180deg);
 }
 
 .arrow-left:active,
@@ -1139,7 +1138,7 @@ a {
   }
 
   .slick-list {
-    margin-left: 0px;
+    margin-left: 20px;
   }
 
   .process {
@@ -1232,7 +1231,7 @@ a {
   }
 
   .businessowner {
-    width: 280px !important;
+    width: 305px !important;
   }
 
   .hr {
@@ -1498,7 +1497,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   .ronaldprofile {
     width: 280px;
   }
@@ -1524,14 +1523,18 @@ a {
   }
 
   .businessowner {
-    width: 250px !important;
+    width: 295px !important;
+    margin-left: 5px;
   }
 
   .datareview {
     font-size: 14px;
-    width: 260px;
+    width: 290px;
   }
 
+  .slick-track {
+    gap: 25px;
+  }
   .hr {
     width: 250px;
   }

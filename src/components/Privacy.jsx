@@ -1,10 +1,14 @@
 /** @format */
+import { useEffect } from "react";
 
 import Footer from "./Footer";
 import Login from "./Login";
 
 /** @format */
 export default function Privacy() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when this component mounts
+  }, []);
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -82,7 +86,7 @@ export default function Privacy() {
           style={{
             color: "hsla(180, 23%, 15%, 1)",
             fontSize: 18,
-            padding: "0 40px",
+            padding: "0 20px",
             fontFamily: "Inter",
           }}
         >
@@ -2587,6 +2591,7 @@ export default function Privacy() {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

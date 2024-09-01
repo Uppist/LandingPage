@@ -2,7 +2,7 @@
 
 // /** @format */
 
-import React, { useRef } from "react";
+import React, { useRef, Component } from "react";
 import Slider from "react-slick";
 import Data from "../data.json";
 
@@ -23,9 +23,9 @@ export default function Review() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplsay: true,
-    speed: 5000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    speed: 2000,
+    // autoplaySpeed: 2000,
+    // cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -60,25 +60,19 @@ export default function Review() {
             <svg
               onClick={prevSlide}
               className='arrow-left'
-              width='32'
-              height='33'
-              viewBox='0 0 32 33'
+              width='10'
+              height='18'
+              viewBox='0 0 10 18'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
             >
               <path
-                d='M5.6665 17.3434L25.6665 17.3434'
-                stroke='currentColor'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              />
-              <path
-                d='M13.7329 25.3759L5.66624 17.3439L13.7329 9.31055'
-                stroke='currentColor'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
+                d='M9 17L1 9L9 1'
+                stroke='#1D2E2E'
+                stroke-width='1.5'
+                stroke-miterlimit='10'
+                stroke-linecap='round'
+                stroke-linejoin='round'
               />
             </svg>
           </li>
@@ -86,25 +80,19 @@ export default function Review() {
             <svg
               onClick={nextSlide}
               className='arrow-right'
-              width='32'
-              height='33'
-              viewBox='0 0 32 33'
+              width='10'
+              height='18'
+              viewBox='0 0 10 18'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
             >
               <path
-                d='M5.6665 17.3434L25.6665 17.3434'
-                stroke='currentColor'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              />
-              <path
-                d='M13.7329 25.3759L5.66624 17.3439L13.7329 9.31055'
-                stroke='currentColor'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
+                d='M1 1L9 9L1 17'
+                stroke='#1D2E2E'
+                stroke-width='1.5'
+                stroke-miterlimit='10'
+                stroke-linecap='round'
+                stroke-linejoin='round'
               />
             </svg>
           </li>
