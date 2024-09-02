@@ -1217,6 +1217,9 @@ a {
     padding: 0;
     margin: 0;
   }
+  .privacy {
+    font-size: 14px;
+  }
 
   .arrow-left,
   .arrow-right {
@@ -1516,6 +1519,10 @@ a {
 
   .share {
     padding: 16px 12px;
+  }
+
+  .privacy {
+    font-size: 14px;
   }
 
   .help-list {

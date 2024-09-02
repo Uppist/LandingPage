@@ -7307,8 +7307,6 @@ export default function Privacy() {
                                       }}
                                     />
                                   </div>
-                                  --C.C AchukwuFounder & CEO,
-                                  Uppistwww.uppist.com | cc@uppist.com
                                 </div>
                                 <div></div>
                                 <div></div>
